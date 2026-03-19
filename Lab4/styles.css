@@ -1,0 +1,46 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    color: #333;
+}
+
+/* Стиль для сообщений об ошибках/предупреждениях */
+.error-message {
+    color: #c0392b;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #fadbd8;
+    border: 1px solid #c0392b;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+/* Стиль для заголовка страницы */
+h1 {
+    color: #2c3e50;
+}
