@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif;
+    margin: 40px;
+    line-height: 1.5;
+}
+
+/* Форма ввода */
+textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Исходный текст (цвет + курсив) */
+.src_text {
+    color: #0056b3;
+    font-style: italic;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    white-space: pre-wrap;
+}
+
+/* Сообщение об ошибке */
+.src_error {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Таблица результатов */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    background-color: #e8e8e8;
+}
+
+/* Кнопка "Другой анализ" */
+.back-link {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.back-link:hover {
+    background-color: #218838;
+}
