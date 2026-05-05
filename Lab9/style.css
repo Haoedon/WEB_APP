@@ -1,0 +1,42 @@
+/* Стили главного меню */
+#menu {
+    padding: 15px;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+    /* Решает проблему схлопывания контейнера */
+    overflow: hidden; 
+}
+
+#menu a {
+    /* inline-block позволяет задавать отступы и высоту, 
+       при этом выстраивая кнопки в одну строку */
+    display: inline-block; 
+    
+    padding: 10px 20px;
+    margin: 5px; /* Внешний отступ, чтобы рамки не налезали друг на друга */
+    
+    background-color: blue; /* Синий цвет по ТЗ  */
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    
+    /* Убираем возможные конфликты с границами */
+    box-sizing: border-box; 
+    border: 2px solid blue;
+}
+
+#menu a.selected {
+    background-color: red; /* Активный пункт — красный [cite: 60] */
+    border-color: red;
+}
+
+/* Стили подменю */
+#submenu {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+#submenu a {
+    font-size: 0.85em; /* Визуально меньше основных [cite: 62] */
+    padding: 5px 12px;
+}
